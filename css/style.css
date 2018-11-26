@@ -10,18 +10,17 @@ body {
 
 .container {
   box-sizing: border-box;
-  background-color: #fff;
-  float: center;
-  margin: 10%;
+  background-color: #fff;s
   padding: 2%;
   margin: 0 auto;
   width: 420px;
 }
 
 nav {
+  background-color: black;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: fixed;
+  position: center;
   width: 420px;
 }
 
