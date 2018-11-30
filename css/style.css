@@ -29,18 +29,17 @@ nav {
   background-color: black;
   margin: auto;
   padding: 10px 15px 10px 15px;
-  width: 420px;
+  width: 100%;
 }
 
 .restaurant-list {
   box-sizing: border-box;
   background-color: black;
   border: 1px;
-  border-color: #00000;
-  margin: 1%
-  padding: 1%;
+  border-color: grey;
+
   width: 100%;
-  padding-top: 5px;
+
 }
 
 .location {
@@ -59,7 +58,7 @@ nav {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 80%;
-  line-height: 2px;
+  line-height: 2em;
   display: inline-block;
 }
 
@@ -68,7 +67,8 @@ nav {
 .arrow {
   box-sizing: border-box;
   padding-left: 12%;
-  padding-top: 2%;
   width: 18%;
   display: inline-block;
+  position: relative;
+  top: -10px;
 }
